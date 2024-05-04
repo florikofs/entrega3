@@ -16,7 +16,7 @@ nav {
 
 .container-fluid {
     a {
-        font-family: font-titles, serif;
+        font-family: font-main, serif;
         font-weight: 800;
     }
 }
@@ -32,5 +32,6 @@ nav {
 // FOOTER
 footer {
     font-size: 12px;
-    margin: 20px 20px;
+    padding: 20px;
+    border-top: 1px solid $whitish;
 }
