@@ -1,0 +1,23 @@
+.home_main {
+    color: white;
+    height: 600px;
+    padding: 60PX;
+    display: flex;
+    align-items: center;
+    background-image: url('../resources/space2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    color: white;
+    border: solid 1px white;
+    background-color: #00000025;
+    border-radius: 10px;
+    padding: 10px 30PX;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.074);
+}
