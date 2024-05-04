@@ -1,32 +1,36 @@
 // NAVBAR
 nav {
-    border-bottom: 2px rgb(216, 216, 216) solid;
+    border-bottom: 2px $whitish solid;
     padding: 0px 40px !important;
-    li{
+
+    li {
         margin: 20px;
         font-size: 18px;
 
-        a{
+        a {
             text-transform: uppercase;
         }
     }
 }
 
 
-
-.container-fluid a {
-    font-family: font-titles, serif;
-    font-weight: 800;
+.container-fluid {
+    a {
+        font-family: font-titles, serif;
+        font-weight: 800;
+    }
 }
 
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link.show {
-    color: #005cb3;
-    font-size: 18px;
+.navbar-nav {
+
+    .nav-link.active, .nav-link.show {
+        color: $maincolor;
+        font-size: 18px;
+    }
 }
 
 // FOOTER
 footer {
     font-size: 12px;
-    margin: 20px 60px;
+    margin: 20px 20px;
 }

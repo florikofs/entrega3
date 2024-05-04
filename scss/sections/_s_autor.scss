@@ -1,11 +1,18 @@
-.autor_div {
-    display: flex;
-}
+.autor_main {
+    padding: 0;
 
-.autor_div_text {
-    padding: 20px;
-}
+    .autor_div {
+        display: flex;
 
-div img {
-    width: 400px;
+        div {
+            img {
+                width: 400px;
+            }
+        }
+
+        .autor_div_text {
+            padding: 20px;
+            max-width: 650px;
+        }
+    }
 }

@@ -27,14 +27,13 @@ nav {
   font-family: font-titles, serif;
   font-weight: 800; }
 
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link.show {
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: #005cb3;
   font-size: 18px; }
 
 footer {
   font-size: 12px;
-  margin: 20px 60px; }
+  margin: 20px 20px; }
 
 .home_main {
   color: white;
@@ -46,25 +45,26 @@ footer {
   background-size: cover;
   background-position: center; }
 
-button {
+.home_button {
   color: white;
   border: solid 1px white;
-  background-color: #00000025;
+  background-color: #51515125;
   border-radius: 10px;
   padding: 10px 30PX;
   font-weight: 600; }
 
-button:hover {
+.home_button:hover {
   background-color: rgba(255, 255, 255, 0.074); }
 
-.autor_div {
-  display: flex; }
-
-.autor_div_text {
-  padding: 20px; }
-
-div img {
-  width: 400px; }
+.autor_main {
+  padding: 0; }
+  .autor_main .autor_div {
+    display: flex; }
+    .autor_main .autor_div div img {
+      width: 400px; }
+    .autor_main .autor_div .autor_div_text {
+      padding: 20px;
+      max-width: 650px; }
 
 .trilogia_main {
   background-color: black;
@@ -112,7 +112,7 @@ div img {
   margin-bottom: 0; }
 
 .subinfo {
-  color: grey;
+  color: #808080;
   font-size: 20px; }
 
 /* Main Contacto */
@@ -123,8 +123,6 @@ div img {
 .contacto_form {
   margin-left: 30px; }
 
-/* MEDIA QUERIES */
-/* Media Queries - Eventos */
 @media (max-width: 900px) {
   .eventos-proximos_section {
     grid-template-columns: repeat(2, 1fr); } }
