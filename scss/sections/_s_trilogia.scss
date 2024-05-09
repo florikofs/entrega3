@@ -7,25 +7,19 @@
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
-    
+
         .card {
             border: none;
             margin: 20px;
 
             .card-body {
                 padding: 20px;
+
+                h5 {
+                    font-family: font-main, serif;
+                    font-weight: bolder;
+                }
             }
         }
     }
-}
-
-
-
-
-
-
-
-.card-body h5 {
-    font-family: font-main, serif;
-    font-weight: bolder;
 }

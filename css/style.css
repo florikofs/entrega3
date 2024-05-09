@@ -50,26 +50,22 @@ button {
   border-radius: 10px;
   padding: 10px 30PX;
   font-weight: 600; }
-
-button:hover {
-  background-color: #003f79; }
+  button:hover {
+    background-color: #003f79; }
 
 nav {
   border-bottom: 2px #d8d8d8 solid;
   padding: 0px 40px !important; }
-  nav li {
+  nav .container-fluid a {
+    font-family: font-main, serif;
+    font-weight: 800; }
+  nav .container-fluid .navbar-nav li {
     margin: 20px;
     font-size: 18px; }
-    nav li a {
+    nav .container-fluid .navbar-nav li .nav-link {
       text-transform: uppercase; }
-
-.container-fluid a {
-  font-family: font-main, serif;
-  font-weight: 800; }
-
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-  color: #005cb3;
-  font-size: 18px; }
+    nav .container-fluid .navbar-nav li .nav-link.active {
+      color: #005cb3; }
 
 footer {
   font-size: 12px;
@@ -85,17 +81,15 @@ footer {
   background-image: url("../resources/space2.jpg");
   background-size: cover;
   background-position: center; }
-
-.home_button {
-  color: white;
-  border: solid 1px white;
-  background-color: #51515125;
-  border-radius: 10px;
-  padding: 10px 30PX;
-  font-weight: 600; }
-
-.home_button:hover {
-  background-color: rgba(255, 255, 255, 0.074); }
+  .home_main .home_button {
+    color: white;
+    border: solid 1px white;
+    background-color: #51515125;
+    border-radius: 10px;
+    padding: 10px 30PX;
+    font-weight: 600; }
+    .home_main .home_button:hover {
+      background-color: rgba(255, 255, 255, 0.074); }
 
 .autor_main {
   padding: 0; }
@@ -120,10 +114,9 @@ footer {
       margin: 20px; }
       .trilogia_main .trilogia_div .card .card-body {
         padding: 20px; }
-
-.card-body h5 {
-  font-family: font-main, serif;
-  font-weight: bolder; }
+        .trilogia_main .trilogia_div .card .card-body h5 {
+          font-family: font-main, serif;
+          font-weight: bolder; }
 
 .eventos_main {
   padding-bottom: 0; }
