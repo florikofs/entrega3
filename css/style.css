@@ -7,6 +7,35 @@
   padding: 0px;
   box-sizing: border-box; }
 
+@keyframes entrada {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.03); }
+  100% {
+    transform: scale(1); } }
+
+.tapa_anima1 {
+  animation-name: entrada;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+  animation-delay: 0s; }
+
+.tapa_anima2 {
+  animation-name: entrada;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s; }
+
+.tapa_anima3 {
+  animation-name: entrada;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+  animation-delay: 1s; }
+
 h1,
 h2 {
   font-family: font-main, serif; }
